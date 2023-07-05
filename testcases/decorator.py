@@ -6,6 +6,7 @@ def mydecorator(function):
     return wrapper
 
 
+
 @mydecorator
 def hello_world(person):
     return f"Hello {person}!"
